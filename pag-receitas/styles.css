@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaeaea;
+    font-family: 'Roboto', sans-serif;
+    color: #39393a;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 25px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 15px 0;
+    font-size: 28px;
+}
+
+header figure {
+    padding: 0 10px;
+}
+
+header figure img {
+    height: 200px;
+    width: 400px;
+    border-radius: 60px;
+}
+
+header figure figcaption, footer {
+    color: #8f8f8f;
+    font-size: 12px;
+}
+
+main {
+    margin: 40px 30px 30px;
+    padding: 10px 25px;
+}
+
+h1, h2 {
+    color: #1b1b1b;
+}
+
+h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.ingredientes, .preparo, .info {
+    margin: 40px 0;
+}
+
+.ingredientes ul li, .preparo ol li {
+    margin: 20px;
+    line-height: 25px;
+}
+
+.info p {
+    line-height: 22px;
+}
+
+footer p a {
+    text-decoration: none;
+}
