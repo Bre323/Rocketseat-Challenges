@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    --black: #4d4c59;
+    --purple: #6c63ff;
+    --light-grey: #c8c8c8;
+    --text-color: #9c9ab6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+}
+
+.container img {
+    width: 100%;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.countdown h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--purple);
+    margin-bottom: 20px;
+}
+
+.countdown .timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.days, .hours, .minutes, .seconds {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two-dots {
+    margin-top: 20px;
+}
+
+h2 {
+    color: var(--black);
+    font-size: 32px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.subscribe p {
+    margin: 25px 0 30px;
+    font-size: 14px;
+}
+
+.subscribe button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--purple);
+    color: #fff;
+    transition: 0.2s;
+}
+
+.subscribe button:active {
+    opacity: 0.8;
+}
+
+.rocket-container img {
+    height: 435px;
+    width: 600px;
+}
