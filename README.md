@@ -1,4 +1,4 @@
-# Rocketseat-Challenges (Part 1)
+# Rocketseat Challenges (Part 1)
 
 ## Projetos desenvolvidos neste repositório:
  - Countdown: Contagem Regressiva
